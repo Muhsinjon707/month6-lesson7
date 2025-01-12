@@ -1,0 +1,35 @@
+.registerForm {
+    margin: 100px auto;
+    border: 1px solid;
+    padding: 30px;
+    width: 500px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box label {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.box input {
+    padding: 6px 12px;
+    outline: transparent;
+}
+
+button[type="button"] {
+    padding: 5px 10px;
+    background-color: brown;
+    color: white;
+}
+
